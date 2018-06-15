@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  display: block;
+  width: 180px;
+  height: 26px;
+  padding-left: 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding-left: 20px;
+}
+.logo div {
+  float: right;
+  margin-right: 20px;
+  line-height: 50px;
+}
+.logo div.systemtime {
+  float: left;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 550px;
+}
+
+.container {
+  font-family: 微软雅黑;
+  background: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.center .centerL,
+.center .centerR {
+  float: left;
+}
+.center {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.center .centerR {
+  width: 84.7%;
+  height: 630px;
+}
+.center .centerL {
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 615px;
+  width: 13.5%;
+  border-right: 3px solid #777;
+  background-color: #ccc;
+}
+.managerList {
+  margin-left: 10px;
+}
+.managerList ul {
+  display: none;
+}
